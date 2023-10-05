@@ -1,4 +1,4 @@
-# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%Testing-D8B4F8)
+# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%20Testing-D8B4F8)
 
 ## Contents
 - [About the project](#about_the_project)
