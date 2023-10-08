@@ -1,8 +1,8 @@
-# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%Testing-D8B4F8)
+# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%20Testing-D8B4F8)
 
 ## Contents
 - [About the project](#about_the_project)
-- [Wymagania](#requirements)
+- [Requirements](#requirements)
 - [Instalation](#instalation)
 - [Usage](#usage)
 - [Repositoty structure](#repository_structure)
@@ -20,7 +20,7 @@ In this project I ended up using **XGBoostClassifier** as the main model. I used
 
 I also conducted an analysis of the data and did **hypothesis testing** to define the features, which differentiate the outcomes the most. Thanks to that I was able to reduce the number of features from 58 (excluding Mortality) to 14. I also did the **principal component analysis**, which suggested that I could use only 11 features to describe 95% of the data, but since the difference is not that significant between 11 and 14, I continued the modeling with 14 features.
 
-Additionally, I created a simple app using **tkinter**, in which you can input your data and try the model yourself! 🌟
+Additionally, I created a simple app using **Streamlit**, in which you can input your data and try the model yourself! 🌟
 
 
 ## Requirements
@@ -34,8 +34,8 @@ To run this project on you local machine, please follow the below steps:
 
     ```bash
     python -m venv nazwa_srodowiska
-    source nazwa_srodowiska/bin/activate   # dla systemu Unix/Linux
-    .\nazwa_srodowiska\Scripts\activate    # dla systemu Windows
+    source nazwa_srodowiska/bin/activate   # for  Unix/Linux
+    .\nazwa_srodowiska\Scripts\activate    # for Windows
     ```
 2. **Instalation of requirements:**
 
@@ -61,7 +61,15 @@ This project is created for education and entertaining purposes only. You can us
 ## Repositoty structure
 - **data** ➡️ this folder contains the dataset and two pickle files, with the model and the labels for data encoding;
 - **Heart_Failure_EDA_Modeling.ipynb**  ➡️ this notebook contains the analysis, hypothesis testing, PCA, data cleaning and model creation;
-- **heat_failure_app.py**  ➡️ application for easy usage of the model;
+- **heart_failure_app.py**  ➡️ application for easy usage of the model;
 
 ## Final model metrics
 
+
+
+91 g cebula
+129g marchewka
+79 g cukinia
+13 g czosnek
+12 g oliwa
+55 g serek
