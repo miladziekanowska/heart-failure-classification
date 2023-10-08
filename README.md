@@ -33,9 +33,9 @@ To run this project on you local machine, please follow the below steps:
     Creation and activation of virtual environment:
 
     ```bash
-    python -m venv nazwa_srodowiska
-    source nazwa_srodowiska/bin/activate   # for  Unix/Linux
-    .\nazwa_srodowiska\Scripts\activate    # for Windows
+    python -m venv heart_failures_venv
+    source heart_failures_venv/bin/activate   # for  Unix/Linux
+    .\heart_failures_venv\Scripts\activate    # for Windows
     ```
 2. **Instalation of requirements:**
 
@@ -62,6 +62,10 @@ This project is created for education and entertaining purposes only. You can us
 - **data** ➡️ this folder contains the dataset and two pickle files, with the model and the labels for data encoding;
 - **Heart_Failure_EDA_Modeling.ipynb**  ➡️ this notebook contains the analysis, hypothesis testing, PCA, data cleaning and model creation;
 - **heart_failure_app.py**  ➡️ application for easy usage of the model;
+- **heart_failure_profiling.py**  ➡️ profiling of the dataset, where you can dive deep into the analysis;
+- **catboost_info** ➡️ a folder accompaning CatBoost model;
+- **requirements.txt** ➡️ so you could easily install this repository on your local machine;
+- **heart_failures_venv** ➡️ virtual environment for this project.
 
 ## Final model metrics
   **Accuracy**:  0.9354838709677419
