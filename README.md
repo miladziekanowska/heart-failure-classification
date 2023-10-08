@@ -16,7 +16,7 @@ In this repository, I would like to present my analysis and modeling for a heart
 
 As also mentioned in the notebook, some important features were skipped in the dataset, including patients' past in heart failures, their weight, non-direct reason fo heart failure (such as fatigue, accident, stroke) etc, and exclude all external factors, such as proximity to hospital, lenght of CPR, etc, which might contribute to the outcome of a heart failues and mortality of the patietnts.
 
-In this project I ended up using **XGBoostClassifier** as the main model. I used **K-Fold** cross validation to compare the model outcomes and for hyperparameter tuning I used **OPTUNA**. In addition, I used **SMOTE** to balance out the data, which helped plenty in the final model creation.
+In this project I ended up using **CatBoostClassifier** as the main model. I used **K-Fold** cross validation to compare the model outcomes and for hyperparameter tuning I used **OPTUNA**. In addition, I used **SMOTE** to balance out the data, which helped plenty in the final model creation.
 
 I also conducted an analysis of the data and did **hypothesis testing** to define the features, which differentiate the outcomes the most. Thanks to that I was able to reduce the number of features from 58 (excluding Mortality) to 14. I also did the **principal component analysis**, which suggested that I could use only 11 features to describe 95% of the data, but since the difference is not that significant between 11 and 14, I continued the modeling with 14 features.
 
@@ -64,12 +64,6 @@ This project is created for education and entertaining purposes only. You can us
 - **heart_failure_app.py**  ➡️ application for easy usage of the model;
 
 ## Final model metrics
-
-
-
-91 g cebula
-129g marchewka
-79 g cukinia
-13 g czosnek
-12 g oliwa
-55 g serek
+  **Accuracy**:  0.9354838709677419
+  **F1 score**:  0.8966666666666667
+  **ROC score**: 0.9615384615384616
