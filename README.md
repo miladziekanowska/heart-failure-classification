@@ -62,11 +62,15 @@ This project is created for education and entertaining purposes only. You can us
 - **data** ➡️ this folder contains the dataset and two pickle files, with the model and the labels for data encoding;
 - **Heart_Failure_EDA_Modeling.ipynb**  ➡️ this notebook contains the analysis, hypothesis testing, PCA, data cleaning and model creation;
 - **heart_failure_app.py**  ➡️ application for easy usage of the model;
-- **heart_failure_profiling.py**  ➡️ profiling of the dataset, where you can dive deep into the analysis;
 - **catboost_info** ➡️ a folder accompaning CatBoost model;
 - **requirements.txt** ➡️ so you could easily install this repository on your local machine;
 
-
+Additional file, you can call on your local machine:
+- **heart_failure_profiling.py**  ➡️ profiling of the dataset, where you can dive deep into the analysis - use this code in the notebook:
+```python
+profile = ProfileReport(df, title='Heart Failures Profiling')
+profile.to_file(output_file='heart_failure_profiling.html')
+```
 ## Final model metrics
   **Accuracy**:  0.9354838709677419
   **F1 score**:  0.8966666666666667
