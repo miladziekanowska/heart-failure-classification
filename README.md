@@ -1,4 +1,4 @@
-# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%20Testing-D8B4F8)
+# Heart Failure Prediction ![page](https://img.shields.io/badge/Data%20Analytics-8A2BE2) ![page](https://img.shields.io/badge/Data%20Cleaning-DBC4F0) ![page](https://img.shields.io/badge/Classification-FCAEAE) ![page](https://img.shields.io/badge/Imbalanced%20Data-A1CCD1) ![page](https://img.shields.io/badge/Hypothesis%20Testing-D8B4F8) ![page](https://img.shields.io/badge/PCA-5B0888) ![page](https://img.shields.io/badge/Streamlit%20App-4D3C77)
 
 ## Contents
 - [About the project](#about_the_project)
@@ -65,7 +65,7 @@ This project is created for education and entertaining purposes only. You can us
 - **heart_failure_profiling.py**  ➡️ profiling of the dataset, where you can dive deep into the analysis;
 - **catboost_info** ➡️ a folder accompaning CatBoost model;
 - **requirements.txt** ➡️ so you could easily install this repository on your local machine;
-- **heart_failures_venv** ➡️ virtual environment for this project.
+
 
 ## Final model metrics
   **Accuracy**:  0.9354838709677419
